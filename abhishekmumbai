@@ -1,0 +1,44 @@
+My name is anhishek 
+
+Microsoft Windows [Version 10.0.19044.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>cd ../..
+
+C:\>git clone https://github.com/abhisheksharma28nov/time-tracker.git
+Cloning into 'time-tracker'...
+remote: Enumerating objects: 323, done.
+remote: Total 323 (delta 0), reused 0 (delta 0), pack-reused 323
+Receiving objects: 100% (323/323), 79.39 KiB | 2.09 MiB/s, done.
+Resolving deltas: 100% (99/99), done.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F23F-FBC5
+
+ Directory of C:\
+
+11-07-2022  23:06    <DIR>          container
+30-01-2023  17:02    <DIR>          DevTools
+06-07-2022  13:04    <DIR>          HashiCorp
+25-05-2022  11:39    <DIR>          Intel
+04-09-2022  16:28    <DIR>          Intro
+04-09-2022  17:28    <DIR>          mycontainer
+19-07-2022  19:43    <DIR>          myshellscripts
+06-08-2022  13:58    <DIR>          newcontainer
+07-12-2019  14:44    <DIR>          PerfLogs
+31-01-2023  10:11    <DIR>          Program Files
+30-01-2023  16:42    <DIR>          Program Files (x86)
+31-01-2023  11:31    <DIR>          time-tracker
+25-05-2022  13:54    <DIR>          Users
+20-07-2022  23:10    <DIR>          vagrant-vms
+21-07-2022  11:23    <DIR>          vprofile-project
+30-01-2023  18:07    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  58,390,302,720 bytes free
+
+C:\>
+C:\>cd time-tracker
+
+C:\time-tracker>mvn clean package
+[INFO] Scanning for projects...
